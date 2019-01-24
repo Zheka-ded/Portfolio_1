@@ -1,0 +1,24 @@
+.header{
+
+    &__container{
+        background: url('../img/photo-1444093826349-9ce8c622f4f3.png');
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    // &__nav-logo{
+        
+    // }
+
+    &__nav-logo-link{
+        background: url('../img/logomak_logo 1.png');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        width: 5rem;
+        height: 5rem;
+    }
+
+
+}
