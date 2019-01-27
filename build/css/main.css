@@ -49,13 +49,10 @@ html {
   font-size: 10px; }
 
 .body {
-<<<<<<< HEAD
   font-family: 'Nanum Pen Script', cursive, sans-serif;
   font-family: 'Covered By Your Grace', cursive, sans-serif;
   font-family: 'ZCOOL KuaiLe', cursive, sans-serif;
   font-family: 'Source Code Pro', monospace, sans-serif;
-=======
->>>>>>> bf90a7ec824ae3f44bda07d3017ac439d6106df0
   font-size: 1.6rem; }
 
 * {
@@ -66,7 +63,6 @@ html {
   margin: 0 auto;
   max-width: 192rem; }
 
-<<<<<<< HEAD
 a, ul, li {
   text-decoration: none;
   list-style: none; }
@@ -93,14 +89,10 @@ a, ul, li {
   -webkit-flex-direction: row;
       -ms-flex-direction: row;
           flex-direction: row;
-=======
-.header__container {
->>>>>>> bf90a7ec824ae3f44bda07d3017ac439d6106df0
   background: url("../img/photo-1444093826349-9ce8c622f4f3.png");
   background-position: center;
   -webkit-background-size: cover;
           background-size: cover;
-<<<<<<< HEAD
   width: 100%;
   height: 100vh;
   z-index: 0;
@@ -112,7 +104,6 @@ a, ul, li {
   width: 100%;
   height: 100%;
   opacity: 0.9;
-  /* mix-blend-mode: darken; */
   position: absolute;
   z-index: -1; }
 
@@ -150,28 +141,42 @@ a, ul, li {
       -ms-flex-pack: center;
           justify-content: center; }
 
-.header__item {
-=======
-  height: 100vh; }
-
-.header__nav-logo-link {
-  background: url("../img/logomak_logo 1.png");
-  -webkit-background-size: cover;
-          background-size: cover;
-  background-position: center;
->>>>>>> bf90a7ec824ae3f44bda07d3017ac439d6106df0
+.header__nav-social-link {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-<<<<<<< HEAD
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-position: center;
+  margin: 0 auto; }
+
+.header__nav-icon-github {
+  background-image: url("../img/icons8-github-96.png"); }
+
+.header__nav-icon-fb {
+  background-image: url("../img/icons8-facebook-96.png"); }
+
+.header__nav-icon-linkedin {
+  background-image: url("../img/icons8-linkedin-96.png"); }
+
+.header__nav-icon-instagram {
+  background-image: url("../img/icons8-instagram-96.png"); }
+
+.header__item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
   width: 50%; }
-=======
-  width: 5rem;
-  height: 5rem; }
->>>>>>> bf90a7ec824ae3f44bda07d3017ac439d6106df0
