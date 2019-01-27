@@ -41,38 +41,17 @@
             justify-content: center;
         }
 
-        &-social-link{
-            display: flex;
-            // align-items: center;
-            // justify-content: center;
-            width: 3rem;
-            height: 3rem;
-            background-size: cover;
-            background-position: center;
-            // margin: 0 auto;
+        // &-social-link{
+        //     display: flex;
+        //     // align-items: center;
+        //     // justify-content: center;
+        //     width: 3rem;
+        //     height: 3rem;
+        //     // background-size: cover;
+        //     // background-position: center;
+        //     // margin: 0 auto;
 
-        }
-
-        &-icon{
-
-            &-fb{
-                background-image: url('../img/icons8-facebook-96.png');
-            }
-
-            &-github{
-                background-image: url('../img/icons8-github-96.png');
-            }
-
-            
-            &-linkedin{
-                background-image: url('../img/icons8-linkedin-96.png')
-            }
-
-            &-instagram{
-                background-image: url('../img/icons8-instagram-96.png');
-            }
-
-        }
+        // }
 
     }
 

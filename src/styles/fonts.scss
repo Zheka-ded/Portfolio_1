@@ -9,7 +9,13 @@
 
 .nav-menu-fonts{
     font-family: 'ZCOOL KuaiLe', cursive, sans-serif;
-    font-size: 1rem;
+    font-size: 0rem;
     color: #08fdd8;
     text-transform: uppercase;
+}
+
+.nav-menu-fonts:hover{
+    font-size: 1.2rem;
+    width: 100%;
+    margin: 0 auto;
 }
