@@ -1,0 +1,25 @@
+html{
+    font-size: 10px;
+}
+
+.body{
+    font-family: 'Nanum Pen Script', cursive, sans-serif;
+    font-family: 'Covered By Your Grace', cursive, sans-serif;
+    font-family: 'ZCOOL KuaiLe', cursive, sans-serif;
+    font-family: 'Source Code Pro', monospace, sans-serif;
+    font-size: 1.6rem;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.body__wrap{
+    margin: 0 auto;
+    max-width: 192rem;
+}
+
+a, ul, li{
+    text-decoration: none;
+    list-style: none;
+}
