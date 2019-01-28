@@ -84,6 +84,14 @@ a, ul, li {
   width: 100%;
   margin: 0 auto; }
 
+span {
+  font-size: 3rem;
+  color: red; }
+
+code {
+  font-size: 3rem;
+  color: green; }
+
 .header__container {
   display: -webkit-box;
   display: -webkit-flex;
@@ -179,7 +187,3 @@ a, ul, li {
   font-size: 2.2rem;
   width: 100%;
   margin: 0 auto; }
-
-.fas:hover {
-  font-size: 0rem;
-  color: #08fdd8; }
