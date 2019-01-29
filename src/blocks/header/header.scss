@@ -66,3 +66,25 @@
 
 
 }
+
+.header__intro-code-top-body{
+    display: flex;
+    flex-direction: column;
+    width: 7rem;
+}
+
+.open-body-tag-bottom{
+    position: absolute;
+    left: 12%;
+    bottom: 14%;
+
+    // position: relative;
+    // left: 10rem;
+    // top: 56rem;
+}
+// !!! как лучше записвать, какое правило применить??? !!! //
+
+.header__intro-code-top-body:hover .bh{
+    color: aqua;
+}
+// !!! для срабатывания hover !!! //

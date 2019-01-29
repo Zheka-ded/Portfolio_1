@@ -166,6 +166,26 @@ code {
           flex-direction: column;
   width: 50%; }
 
+.header__intro-code-top-body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 7rem; }
+
+.open-body-tag-bottom {
+  position: absolute;
+  left: 12%;
+  bottom: 14%; }
+
+.header__intro-code-top-body:hover .bh {
+  color: aqua; }
+
 .fab {
   color: #000;
   font-size: 3rem;

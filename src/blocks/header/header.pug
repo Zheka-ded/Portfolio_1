@@ -41,12 +41,13 @@ header.header
                 .header__intro-wrap
                     .header__intro-code-top
                         //- p.header__intro-code-text|#[span|<body> ]
-                        p.header__intro-code-text.open-htnl-tag|&lthtml&gt
-                        p.header__intro-code-text.open-body-tag|&ltbody&gt
-                        p.header__intro-code-text.open-h1-tag|&lth1&gt
+                        .header__intro-code-top-body
+                            p.header__intro-code-text.open-body-tag-top.bh|&ltbody&gt
+                            p.header__intro-code-text.open-body-tag-bottom.bh|&lt/body&gt
+                        p.header__intro-code-text.open-h1-tag.hh|&lth1&gt
                     .header__intro-mine
                         p.header__intro-title-text|Hi, my name is Eugene and I'm an alcoholic. Joke, I'm the front end deweloper.
                     .header__intro-code-bottom
-                        p.header__intro-code-text.closed-h1-tag|&lt/h1&gt
-                        p.header__intro-code-text.closed-body-tag|&lt/body&gt
-                        p.header__intro-code-text.closed-html-tag|&lt/html&gt
+                        p.header__intro-code-text.closed-h1-tag.hh|&lt/h1&gt
+                        //- p.header__intro-code-text.closed-body-tag.bh|&lt/body&gt
+                        p.header__intro-code-text.closed-html-tag.hth|&lt/html&gt
