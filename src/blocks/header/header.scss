@@ -3,6 +3,7 @@
     &__container{
         display: flex;
         flex-direction: row;
+        justify-content: flex-start;
         background: url('../img/photo-1444093826349-9ce8c622f4f3.png');
         background-position: center;
         background-size: cover;
@@ -57,9 +58,10 @@
 
     
 
-    &__item{
+    &__intro{
         display: flex;
         flex-direction: column;
+        // justify-content: flex-start;
         width: 50%;
 
     }
@@ -70,10 +72,14 @@
 .header__intro-code-top-body{
     display: flex;
     flex-direction: column;
-    width: 7rem;
+    // width: 7rem;
 }
 
-.open-body-tag-bottom{
+.body-tag-top{
+    margin-left: 7rem;
+}
+
+.body-tag-bottom{
     position: absolute;
     left: 12%;
     bottom: 14%;
@@ -87,4 +93,4 @@
 .header__intro-code-top-body:hover .bh{
     color: aqua;
 }
-// !!! для срабатывания hover !!! //
+// !!! для срабатывания hover - это мне заметочка !!! //
