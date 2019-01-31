@@ -28,6 +28,7 @@
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
     "mkdirp": "^0.5.1",
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "particles.js": "^2.0.0"
   }
 }
