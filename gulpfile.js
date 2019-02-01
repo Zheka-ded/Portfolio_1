@@ -43,9 +43,9 @@ var paths = {
   }
 };
 
-gulp.task('clean', function () {
-  return del(paths.dirs.build);
-});
+// gulp.task('clean', function () {
+//   return del(paths.dirs.build);
+// });
 
 gulp.task('templates', function () {
   return gulp.src(paths.html.src)
@@ -117,7 +117,7 @@ gulp.task('server', function () {
 
 
 gulp.task('build', gulp.series(
-  'clean',
+  // 'clean',
   'templates',
   'styles',
   'scripts',

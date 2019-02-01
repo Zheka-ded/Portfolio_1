@@ -92,6 +92,16 @@ code {
   font-size: 3rem;
   color: green; }
 
+#particles-js {
+  width: 100%;
+  height: 100%;
+  background-color: #b61924;
+  background-image: url("");
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat; }
+
 .header__container {
   display: -webkit-box;
   display: -webkit-flex;
