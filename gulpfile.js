@@ -29,7 +29,8 @@ var paths = {
     src: ['./src/plugins/*.js', './src/blocks/**/*.js'],
     dest: './build/js',
     watch: './src/blocks/**/*.js',
-    watchPlugins: './src/scripts/plugins/*.js'
+    watchPlugins: './src/plugins/*.js'
+    // watchPlugins: './src/scripts/plugins/*.js'
   },
   images: {
     src: './src/blocks/**/img/*',
@@ -64,7 +65,7 @@ gulp.task('styles', function () {
     .pipe(plumber())
     .pipe(sass())
     .pipe(autoprefixer({
-      browsers: ['last 20 versions']
+      browsers: ['last 30 versions']
     }))
     .pipe(gulp.dest(paths.css.dest))
     .pipe(browserSync.reload({

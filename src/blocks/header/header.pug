@@ -13,7 +13,7 @@ header.header
                                     a.header__nav-menu-link.nav-menu-fonts(href="#")|home
                                         i(class="fas fa-home")
                                 li.header__nav-menu-li
-                                    a.header__nav-menu-link.nav-menu-fonts(href="#")|about
+                                    a.header__nav-menu-link.nav-menu-fonts(href="index-about.html" target="blank")|about
                                         i(class="fas fa-user-secret")
                                 li.header__nav-menu-li
                                     a.header__nav-menu-link.nav-menu-fonts(href="#")|skils
@@ -41,18 +41,17 @@ header.header
             .header__intro
                 .header__intro-wrap
                     .header__intro-code-top
-                        //- p.header__intro-code-text|#[span|<body> ]
                         .header__intro-code-top-body
                             p.header__intro-code-text.body-tag-top.bh|&ltbody&gt
                             p.header__intro-code-text.body-tag-bottom.bh|&lt/body&gt
                         .header__intro-code-top-h
                             p.header__intro-code-text.open-h1-tag.hh|&lth1&gt
                     .header__intro-mine
-                        p.header__intro-title-text|Hi! My name is Eugene and I want to be a cool front and developer. Now I am just gaining experience, and as you yourself know, the best experience comes during work.
+                        p.header__intro-title-text#text|Hi! My name is Eugene and I want to be a cool front and developer. Now I am just gaining experience, and as you yourself know, the best experience comes during work.
                     .header__intro-code-bottom
                         p.header__intro-code-text.closed-h1-tag.hh|&lt/h1&gt
-                        //- p.header__intro-code-text.closed-body-tag.bh|&lt/body&gt
                         p.header__intro-code-text.closed-html-tag.hth|&lt/html&gt
+                    button.header__btn-reset.header__btn-fonts(id="reset" data-bound="true")|push
             .header__name
                 .header__name-wrap
                     .header__name-mine
