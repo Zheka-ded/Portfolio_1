@@ -1,4 +1,10 @@
 .header{
+    
+    // &__wrap{
+    //     position: relative;
+    //     // z-index: 1;
+    // }
+    // // z-index: ;
 
     &__container{
         display: flex;
@@ -11,6 +17,7 @@
         height: 100vh;
         z-index: 0;
         position: relative;
+        // opacity: 0.5;
     }
 
     &__container::before{
@@ -24,6 +31,8 @@
     }
 
     &__nav{
+
+        z-index: 3;
 
         &-content{
             display: flex;
@@ -62,8 +71,15 @@
         display: flex;
         flex-direction: column;
         // justify-content: flex-start;
-        width: 50%;
+        width: 55%;
 
+    }
+
+    &__intro-wrap{
+        // position: relative;
+        // left: 0;
+        // right: 0;
+        z-index: 2;
     }
 
 
@@ -72,7 +88,7 @@
 .header__intro-code-top-body{
     display: flex;
     flex-direction: column;
-    // width: 7rem;
+    width: 0rem;
 }
 
 .body-tag-top{
@@ -94,3 +110,11 @@
     color: aqua;
 }
 // !!! для срабатывания hover - это мне заметочка !!! //
+
+
+.header__name{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

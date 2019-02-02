@@ -1,7 +1,7 @@
 header.header
-    #particles-js
     .header__wrap
         .header__container
+            .background#particles-js
             nav.header__nav
                 .header__nav-wrap
                     .header__nav-content
@@ -27,10 +27,10 @@ header.header
                         .header__nav-social
                             ul.header__nav-social-ul
                                 li.header__nav-social-li
-                                    a.header__nav-social-link.header__nav-icon-fb(href="#")
+                                    a.header__nav-social-link.header__nav-icon-fb(href="https://www.facebook.com/profile.php?id=100005873202224")
                                         i(class="fab fa-facebook-square")
                                 li.header__nav-social-li
-                                    a.header__nav-social-link.header__nav-icon-github(href="#")
+                                    a.header__nav-social-link.header__nav-icon-github(href="https://github.com/Zheka-ded")
                                         i(class="fab fa-github-square")
                                 li.header__nav-social-li
                                     a.header__nav-social-link.header__nav-icon-linkedin(href="#")
@@ -45,10 +45,15 @@ header.header
                         .header__intro-code-top-body
                             p.header__intro-code-text.body-tag-top.bh|&ltbody&gt
                             p.header__intro-code-text.body-tag-bottom.bh|&lt/body&gt
-                        p.header__intro-code-text.open-h1-tag.hh|&lth1&gt
+                        .header__intro-code-top-h
+                            p.header__intro-code-text.open-h1-tag.hh|&lth1&gt
                     .header__intro-mine
                         p.header__intro-title-text|Hi! My name is Eugene and I want to be a cool front and developer. Now I am just gaining experience, and as you yourself know, the best experience comes during work.
                     .header__intro-code-bottom
                         p.header__intro-code-text.closed-h1-tag.hh|&lt/h1&gt
                         //- p.header__intro-code-text.closed-body-tag.bh|&lt/body&gt
                         p.header__intro-code-text.closed-html-tag.hth|&lt/html&gt
+            .header__name
+                .header__name-wrap
+                    .header__name-mine
+                        p.header__name-mine-text.glitch.is-glitching(data-text="Evgeny Shevchenko")|Evgeny Shevchenko

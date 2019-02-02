@@ -4,7 +4,7 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-    <title>Portfolio</title>
+    <title>iOld</title>
     <link rel="stylesheet" href="./css/main.css"/>
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Nanum+Pen+Script|Source+Code+Pro:200,300,400,500,600,700,900|ZCOOL+KuaiLe&amp;amp;subset=chinese-simplified,korean,latin-ext" rel="stylesheet"/>
@@ -12,9 +12,9 @@
   <body class="body">
     <div class="body__wrap">
       <header class="header">
-        <div id="particles-js"></div>
         <div class="header__wrap">
           <div class="header__container">
+            <div class="background" id="particles-js"></div>
             <nav class="header__nav">
               <div class="header__nav-wrap">
                 <div class="header__nav-content">
@@ -30,8 +30,8 @@
                   </div>
                   <div class="header__nav-social">
                     <ul class="header__nav-social-ul">
-                      <li class="header__nav-social-li"><a class="header__nav-social-link header__nav-icon-fb" href="#"><i class="fab fa-facebook-square"></i></a></li>
-                      <li class="header__nav-social-li"><a class="header__nav-social-link header__nav-icon-github" href="#"><i class="fab fa-github-square"></i></a></li>
+                      <li class="header__nav-social-li"><a class="header__nav-social-link header__nav-icon-fb" href="https://www.facebook.com/profile.php?id=100005873202224"><i class="fab fa-facebook-square"></i></a></li>
+                      <li class="header__nav-social-li"><a class="header__nav-social-link header__nav-icon-github" href="https://github.com/Zheka-ded"><i class="fab fa-github-square"></i></a></li>
                       <li class="header__nav-social-li"><a class="header__nav-social-link header__nav-icon-linkedin" href="#"><i class="fab fa-linkedin"></i></a></li>
                       <li class="header__nav-social-li"><a class="header__nav-social-link header__nav-icon-instagram" href="#"><i class="fab fa-instagram"></i></a></li>
                     </ul>
@@ -46,7 +46,9 @@
                     <p class="header__intro-code-text body-tag-top bh">&ltbody&gt</p>
                     <p class="header__intro-code-text body-tag-bottom bh">&lt/body&gt</p>
                   </div>
-                  <p class="header__intro-code-text open-h1-tag hh">&lth1&gt</p>
+                  <div class="header__intro-code-top-h">
+                    <p class="header__intro-code-text open-h1-tag hh">&lth1&gt</p>
+                  </div>
                 </div>
                 <div class="header__intro-mine">
                   <p class="header__intro-title-text">Hi! My name is Eugene and I want to be a cool front and developer. Now I am just gaining experience, and as you yourself know, the best experience comes during work.</p>
@@ -57,12 +59,18 @@
                 </div>
               </div>
             </div>
+            <div class="header__name">
+              <div class="header__name-wrap">
+                <div class="header__name-mine">
+                  <p class="header__name-mine-text glitch is-glitching" data-text="Evgeny Shevchenko">Evgeny Shevchenko</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </header>
     </div>
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/particles.js"></script>
-    <script src="js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
