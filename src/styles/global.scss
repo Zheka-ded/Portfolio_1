@@ -41,7 +41,9 @@ html{
 
 .body__wrap{
     margin: 0 auto;
-    max-width: 192rem;
+    // max-width: 192rem;
+    width: 100%;
+    min-width: 16rem;
 }
 
 a, ul, li{

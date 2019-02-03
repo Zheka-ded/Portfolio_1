@@ -8,16 +8,27 @@
 }
 
 .nav-menu-fonts{
-    font-family: 'ZCOOL KuaiLe', cursive, sans-serif;
-    font-size: 0rem;
-    color: #08fdd8;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 1.2rem;
+    color: #0de5c2;
     text-transform: uppercase;
+    text-align: center;
+    transition: 0.3s;
+    padding: 1.3rem 0rem;
 }
 
 .nav-menu-fonts:hover{
-    font-size: 1.2rem;
-    width: 100%;
-    margin: 0 auto;
+    // color: #00fad4;
+    color: rgb(0, 255, 255);
+    font-size: 1.5rem;
+    transition: 0.3s;
+}
+
+.header__intro-code-text{
+    font-family: 'Indie Flower', cursive;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #181818;
 }
 
 // !!! BUTTON FONTS !!! //

@@ -1,8 +1,10 @@
 @import './reset';
 @import './global';
 @import './src/blocks/header/header';
-@import './src/blocks/header/name-text';
-@import './src/blocks/header/mine-text';
+@import './src/blocks/header/header-name';
+@import './src/blocks/header/header-mine';
+@import './src/blocks/header/header-nav';
+@import './src/blocks/header/header-intro';
 @import './src/blocks/contact/contact';
 @import './fontawesom';
 @import './fonts';

@@ -8,7 +8,8 @@
         background-position: center;
         background-size: cover;
         width: 100%;
-        height: 100vh;
+        height: 100%;
+        // height: 100vh;
         z-index: 0;
         position: relative;
     }
@@ -23,62 +24,14 @@
         z-index: -1;
     }
 
-    &__nav{
+}
 
-        &-content{
-            display: flex;
+
+@media (max-width: 751px) {
+    .header{
+
+        &__container{
             flex-direction: column;
-            align-items: center;
-            justify-content: space-between;
-            background: #181818;
-            width: 7rem;
-            height: 100vh;
         }
-
-        &-logo{
-            background: #000;
-            width: 100%;
-            display: flex;
-            justify-content: center;
-        }
-
     }
-
-    
-
-    &__intro{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 55%;
-    }
-
-}
-
-.header__intro-code-top-body{
-    display: flex;
-    flex-direction: column;
-    width: 0rem;
-}
-
-.body-tag-top{
-    margin-left: 7rem;
-}
-
-.body-tag-bottom{
-    position: absolute;
-    left: 12%;
-    bottom: 14%;
-}
-
-.header__intro-code-top-body:hover .bh{
-    color: aqua;
-}
-
-.header__name{
-    width: 40%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
