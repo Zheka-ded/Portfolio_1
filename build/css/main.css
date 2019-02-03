@@ -48,11 +48,27 @@ table {
 html {
   font-size: 10px; }
 
+@media (min-width: 2400px) {
+  html {
+    font-size: 20px; } }
+
+@media (max-width: 1600px) {
+  html {
+    font-size: 9px; } }
+
+@media (max-width: 1240px) {
+  html {
+    font-size: 8px; } }
+
+@media (max-width: 1020px) {
+  html {
+    font-size: 7px; } }
+
 .body {
-  font-family: 'Nanum Pen Script', cursive, sans-serif;
-  font-family: 'Covered By Your Grace', cursive, sans-serif;
-  font-family: 'ZCOOL KuaiLe', cursive, sans-serif;
-  font-family: 'Source Code Pro', monospace, sans-serif;
+  font-family: 'ZCOOL KuaiLe', cursive;
+  font-family: 'PT Sans', sans-serif;
+  font-family: 'Indie Flower', cursive;
+  font-family: 'Lobster', cursive;
   font-size: 1.6rem; }
 
 * {
@@ -191,63 +207,24 @@ a, ul, li {
       -ms-flex-pack: center;
           justify-content: center; }
 
-.fab {
-  color: #000;
-  font-size: 3rem;
-  -webkit-transition: 0.7s;
-  -o-transition: 0.7s;
-  transition: 0.7s; }
-
-.fab:hover {
-  color: #08fdd8;
-  -webkit-transition: 0.7s;
-  -o-transition: 0.7s;
-  transition: 0.7s;
-  -webkit-transform: rotateZ(360deg);
-      -ms-transform: rotate(360deg);
-          transform: rotateZ(360deg); }
-
-.fas {
-  color: #000;
-  font-size: 2.2rem;
-  width: 100%;
-  margin: 0 auto; }
-
-.logo-link-font {
-  font-family: 'Nanum Pen Script', cursive, sans-serif;
-  font-size: 5rem;
-  color: #ff4200;
-  text-shadow: 0.15rem 0.15rem 0.15rem #08fdd8; }
-
-.nav-menu-fonts {
-  font-family: 'ZCOOL KuaiLe', cursive, sans-serif;
-  font-size: 0rem;
-  color: #08fdd8;
-  text-transform: uppercase; }
-
-.nav-menu-fonts:hover {
-  font-size: 1.2rem;
-  width: 100%;
-  margin: 0 auto; }
-
-.background {
-  position: absolute;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: 99.4%;
-  z-index: -1; }
-
 .header__name-mine {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 90%;
-  height: 90%; }
+  height: 90%;
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg); }
 
 .header__name-mine-text {
-  font-family: 'Source Code Pro', monospace, sans-serif;
+  font-family: 'Indie Flower', cursive;
   font-size: 6rem;
   text-align: center; }
 
@@ -345,11 +322,67 @@ a, ul, li {
     clip: rect(3.1rem, 999.9rem, 14.9rem, 0); } }
 
 .header__intro-title-text {
-  padding: 1rem;
-  font-family: monospace;
-  font-size: 5rem; }
+  padding: 1rem 2rem;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 4rem;
+  letter-spacing: 0.45rem;
+  line-height: 1.3; }
 
-.header__btn-reset {
+.fab {
+  color: #000;
+  font-size: 3rem;
+  -webkit-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s; }
+
+.fab:hover {
+  color: #08fdd8;
+  -webkit-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s;
+  -webkit-transform: rotateZ(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotateZ(360deg); }
+
+.fas {
+  color: #000;
+  font-size: 2.2rem;
+  width: 100%;
+  margin: 0 auto; }
+
+.logo-link-font {
+  font-family: 'ZCOOL KuaiLe', cursive;
+  font-size: 3rem;
+  color: #ff4200;
+  text-shadow: 0.15rem 0.15rem 0.15rem #08fdd8; }
+
+.nav-menu-fonts {
+  font-family: 'ZCOOL KuaiLe', cursive, sans-serif;
+  font-size: 0rem;
+  color: #08fdd8;
+  text-transform: uppercase; }
+
+.nav-menu-fonts:hover {
+  font-size: 1.2rem;
+  width: 100%;
+  margin: 0 auto; }
+
+.header__btn-fonts {
+  -webkit-border-radius: 0.8rem;
+          border-radius: 0.8rem;
+  font-family: 'Nanum Pen Script', cursive, sans-serif;
+  text-transform: uppercase;
+  font-size: 2rem; }
+
+.background {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 99.4%;
+  z-index: -1; }
+
+.header__btn {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -363,13 +396,9 @@ a, ul, li {
       -ms-flex-pack: center;
           justify-content: center;
   margin: auto;
-  text-align: center;
-  width: 8rem;
-  height: 5rem;
-  background: orange;
-  border: 0;
-  cursor: pointer;
-  -webkit-border-radius: 3rem;
-          border-radius: 3rem;
-  font-family: monospace;
-  font-size: 2rem; }
+  text-align: center; }
+  .header__btn-reset {
+    background: #3f4b57;
+    border: 0;
+    cursor: pointer;
+    padding: 0.5rem 2rem; }

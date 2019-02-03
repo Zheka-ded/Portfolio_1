@@ -2,11 +2,36 @@ html{
     font-size: 10px;
 }
 
+@media (min-width: 2400px) {
+    html{
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 1600px) {
+    html{
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 1240px) {
+    html{
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 1020px) {
+    html{
+        font-size: 7px;
+    }
+}
+
 .body{
-    font-family: 'Nanum Pen Script', cursive, sans-serif;
-    font-family: 'Covered By Your Grace', cursive, sans-serif;
-    font-family: 'ZCOOL KuaiLe', cursive, sans-serif;
-    font-family: 'Source Code Pro', monospace, sans-serif;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Lobster', cursive;
     font-size: 1.6rem;
 }
 

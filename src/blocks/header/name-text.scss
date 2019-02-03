@@ -1,11 +1,13 @@
 .header__name-mine{
   display: flex;
+  flex-direction: column;
   width: 90%;
   height: 90%;
+  transform: rotate(45deg);
 }
 
 .header__name-mine-text{
-  font-family: 'Source Code Pro', monospace, sans-serif;
+  font-family: 'Indie Flower', cursive;
   font-size: 6rem;
   text-align: center;
 }
