@@ -18,7 +18,6 @@
 }
 
 .nav-menu-fonts:hover{
-    // color: #00fad4;
     color: rgb(0, 255, 255);
     font-size: 1.5rem;
     transition: 0.3s;
@@ -29,6 +28,20 @@
     font-size: 2.5rem;
     font-weight: 600;
     color: #181818;
+}
+
+.header__intro-mine{
+    font-family: 'Indie Flower', cursive;
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+@media (max-width: 751px) {
+
+    .header__intro-mine{
+        font-size: 3.5rem;
+    }
+
 }
 
 // !!! BUTTON FONTS !!! //

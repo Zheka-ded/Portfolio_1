@@ -16,43 +16,42 @@
 
 .body-tag-top{
     margin-left: 7rem;
+    transition: 0.5s;
 }
 
 .body-tag-bottom{
-    // position: absolute;
-    // left: 16rem;
-    // bottom: 12rem;
     position: relative;
     left: 7rem;
     bottom: -39rem;
+    transition: 0.5s;
 }
 
 .header__intro-code-top-body:hover .bh{
     color: aqua;
+    transition: 0.5s;
 }
 
 .header__intro-code-top-pp{
     display: flex;
     width: 0rem;
+    transition: 0.5s;
 }
 
 .open-p-tag{
     margin-left: 14rem;
-    // width: 0rem;
+    transition: 0.5s;
 }
 
 .closed-p-tag{
-    // position: absolute;
-    // left: 74rem;
-    // bottom: 24rem;
     position: relative;
     left: 65rem;
     bottom: -25rem;
-    // width: 0rem;
+    transition: 0.5s;
 }
 
 .header__intro-code-top-pp:hover .pp{
     color: aqua;
+    transition: 0.5s;
 }
 
 .header__intro-code-bottom{
@@ -60,10 +59,16 @@
     left: 4rem;
     top: 10rem;
     width: 0rem;
+    transition: 0.5s;
+}
+
+.closed-html-tag{
+    transition: 0.5s;
 }
 
 .closed-html-tag:hover{
     color: aqua;
+    transition: 0.5s;
 }
 
 
@@ -71,13 +76,16 @@
 
     .header__intro{
         width: 100%;
-        // height: 50vh;
     }
 
-    .closed-p-tag{
-        position: relative;
-        left: 4rem;
-        bottom: -52rem;
+    .bh, .pp, .html{
+        display: none;
     }
+
+    // .closed-p-tag{
+    //     position: relative;
+    //     left: 4rem;
+    //     bottom: -52rem;
+    // }
 
 }

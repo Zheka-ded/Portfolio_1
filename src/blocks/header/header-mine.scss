@@ -1,9 +1,38 @@
+.mine-wrap {
+	margin: auto;
+}
+  
+.wave{
+	color: #999999;
+	// color: #607d8b;
+	// color: #ff4200;
+	animation: 0.5s color infinite;
+}
+  
+@keyframes color{
+	50% {
+	  color: #8fc8ae;
+	// color: #10b297;
+	// color: #3f51b5;
+	}
+}
 
-.header__intro-title-text{
-	padding : 1rem 2rem;
-	font-family: 'PT Sans', sans-serif;
-	font-size: 4rem;
-	letter-spacing: 0.45rem;
-	line-height: 1.3;
+.hmw{
+	display: flex;
+	width: 74rem;
+	height: 30rem;
+}
+
+
+@media (max-width: 751px) {
+
+    .hmw{
+		width: 100%;
+		padding: 3rem 2rem;
+	}
+
+	// .mine-wrap{
+	// 	// margin: 1rem;
+	// }
 
 }

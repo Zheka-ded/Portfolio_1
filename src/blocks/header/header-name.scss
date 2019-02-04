@@ -1,16 +1,17 @@
-.header__name-mine{
-  display: flex;
-  flex-direction: column;
-  width: 90%;
-  height: 90%;
-  transform: rotate(45deg);
-}
-
 .header__name{
   width: 40%;
   display: flex;
   align-items: center;
   justify-content: center;
+
+  &-mine{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    transform: rotateZ(45deg);
+    margin: 0 auto;
+  }
+
 }
 
 .header__name-mine-text{
@@ -24,6 +25,12 @@
   color: #fff;
   opacity: 0.25;
   mix-blend-mode: lighten;
+  transition: 0.5s;
+
+  &:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+  }
   
   &:before,
   &:after {
@@ -79,6 +86,8 @@
 
   .header__name{
     width: 100%;
+    padding-top: 7rem;
+    padding-bottom: 4rem;
     // height: 50vh;
     &-mine{
       transform: rotate(0);

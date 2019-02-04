@@ -124,22 +124,6 @@ a, ul, li {
         -ms-flex-direction: column;
             flex-direction: column; } }
 
-.header__name-mine {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width: 90%;
-  height: 90%;
-  -webkit-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-          transform: rotate(45deg); }
-
 .header__name {
   width: 40%;
   display: -webkit-box;
@@ -154,6 +138,21 @@ a, ul, li {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center; }
+  .header__name-mine {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 65%;
+    -webkit-transform: rotateZ(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotateZ(45deg);
+    margin: 0 auto; }
 
 .header__name-mine-text {
   font-family: 'Indie Flower', cursive;
@@ -164,7 +163,15 @@ a, ul, li {
   position: relative;
   color: #fff;
   opacity: 0.25;
-  mix-blend-mode: lighten; }
+  mix-blend-mode: lighten;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
+  .glitch:hover {
+    opacity: 0.6;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s; }
   .glitch:before, .glitch:after {
     content: attr(data-text);
     position: absolute;
@@ -255,18 +262,42 @@ a, ul, li {
 
 @media (max-width: 751px) {
   .header__name {
-    width: 100%; }
+    width: 100%;
+    padding-top: 7rem;
+    padding-bottom: 4rem; }
     .header__name-mine {
       -webkit-transform: rotate(0);
           -ms-transform: rotate(0);
               transform: rotate(0); } }
 
-.header__intro-title-text {
-  padding: 1rem 2rem;
-  font-family: 'PT Sans', sans-serif;
-  font-size: 4rem;
-  letter-spacing: 0.45rem;
-  line-height: 1.3; }
+.mine-wrap {
+  margin: auto; }
+
+.wave {
+  color: #999999;
+  -webkit-animation: 0.5s color infinite;
+          animation: 0.5s color infinite; }
+
+@-webkit-keyframes color {
+  50% {
+    color: #8fc8ae; } }
+
+@keyframes color {
+  50% {
+    color: #8fc8ae; } }
+
+.hmw {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 74rem;
+  height: 30rem; }
+
+@media (max-width: 751px) {
+  .hmw {
+    width: 100%;
+    padding: 3rem 2rem; } }
 
 .header__nav-content {
   display: -webkit-box;
@@ -336,10 +367,10 @@ a, ul, li {
     -webkit-flex-direction: row;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-align: start;
-    -webkit-align-items: flex-start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
         -ms-flex-pack: justify;
@@ -348,7 +379,33 @@ a, ul, li {
     height: 6rem; }
   .header__nav-logo {
     height: 100%;
-    width: 6rem; } }
+    width: 7rem; }
+  .header__nav-menu-ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row; }
+  .header__nav-menu-li {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 1rem; }
+  .header__nav-social {
+    display: none; } }
 
 .header__intro {
   display: -webkit-box;
@@ -383,50 +440,80 @@ a, ul, li {
   width: 0rem; }
 
 .body-tag-top {
-  margin-left: 7rem; }
+  margin-left: 7rem;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
 
 .body-tag-bottom {
   position: relative;
   left: 7rem;
-  bottom: -39rem; }
+  bottom: -39rem;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
 
 .header__intro-code-top-body:hover .bh {
-  color: aqua; }
+  color: aqua;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
 
 .header__intro-code-top-pp {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 0rem; }
+  width: 0rem;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
 
 .open-p-tag {
-  margin-left: 14rem; }
+  margin-left: 14rem;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
 
 .closed-p-tag {
   position: relative;
   left: 65rem;
-  bottom: -25rem; }
+  bottom: -25rem;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
 
 .header__intro-code-top-pp:hover .pp {
-  color: aqua; }
+  color: aqua;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
 
 .header__intro-code-bottom {
   position: relative;
   left: 4rem;
   top: 10rem;
-  width: 0rem; }
+  width: 0rem;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
+
+.closed-html-tag {
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
 
 .closed-html-tag:hover {
-  color: aqua; }
+  color: aqua;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
 
 @media (max-width: 751px) {
   .header__intro {
     width: 100%; }
-  .closed-p-tag {
-    position: relative;
-    left: 4rem;
-    bottom: -52rem; } }
+  .bh, .pp, .html {
+    display: none; } }
 
 .fab {
   color: #000;
@@ -479,6 +566,15 @@ a, ul, li {
   font-size: 2.5rem;
   font-weight: 600;
   color: #181818; }
+
+.header__intro-mine {
+  font-family: 'Indie Flower', cursive;
+  font-size: 4.5rem;
+  font-weight: bold; }
+
+@media (max-width: 751px) {
+  .header__intro-mine {
+    font-size: 3.5rem; } }
 
 .header__btn-fonts {
   -webkit-border-radius: 0.8rem;
