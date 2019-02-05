@@ -14,12 +14,6 @@
 
 }
 
-.header__name-mine-text{
-  font-family: 'Indie Flower', cursive;
-  font-size: 6rem;
-  text-align: center;
-}
-
 .glitch {
   position: relative;
   color: #fff;
@@ -88,7 +82,6 @@
     width: 100%;
     padding-top: 7rem;
     padding-bottom: 4rem;
-    // height: 50vh;
     &-mine{
       transform: rotate(0);
     }

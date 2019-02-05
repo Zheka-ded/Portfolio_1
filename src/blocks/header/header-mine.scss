@@ -4,16 +4,12 @@
   
 .wave{
 	color: #999999;
-	// color: #607d8b;
-	// color: #ff4200;
 	animation: 0.5s color infinite;
 }
   
 @keyframes color{
 	50% {
 	  color: #8fc8ae;
-	// color: #10b297;
-	// color: #3f51b5;
 	}
 }
 
@@ -30,9 +26,5 @@
 		width: 100%;
 		padding: 3rem 2rem;
 	}
-
-	// .mine-wrap{
-	// 	// margin: 1rem;
-	// }
 
 }

@@ -1,10 +1,17 @@
 <!DOCTYPE html>
-html(lang="en")
+html(lang="ru")
     head
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         meta(http-equiv="X-UA-Compatible", content="ie=edge")
-        title Document
+        title iOld/about
+        link(rel="stylesheet", href="./css/main.css")
+        link(href='https://use.fontawesome.com/releases/v5.0.6/css/all.css' rel='stylesheet')
+        link(href="https://fonts.googleapis.com/css?family=Indie+Flower|Neucha|ZCOOL+KuaiLe&amp;subset=chinese-simplified,cyrillic" rel="stylesheet")
     body.body
         .body__wrap
-            h1|hello about
+            include ../blocks/about/about.pug
+                //- h1|hello about ttt
+        //- script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery-compat/3.0.0-alpha1/jquery.min.js")
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js")
+        script(src="./js/main.js")

@@ -2,42 +2,7 @@ header.header
     .header__wrap
         .header__container
             .background#particles-js
-            nav.header__nav
-                .header__nav-wrap
-                    .header__nav-content
-                        .header__nav-logo
-                            a.header__nav-logo-link.logo-link-font(href="index.html")|iOld
-                        .header__nav-menu
-                            ul.header__nav-menu-ul
-                                li.header__nav-menu-li
-                                    a.header__nav-menu-link.nav-menu-fonts(href="#")|home
-                                        //- i(class="fas fa-home")
-                                li.header__nav-menu-li
-                                    a.header__nav-menu-link.nav-menu-fonts(href="index-about.html" target="blank")|about
-                                        //- i(class="fas fa-user-secret")
-                                li.header__nav-menu-li
-                                    a.header__nav-menu-link.nav-menu-fonts(href="#")|skils
-                                        //- i(class="fas fa-cogs")
-                                li.header__nav-menu-li
-                                    a.header__nav-menu-link.nav-menu-fonts(href="#")|my work
-                                        //- i(class="fas fa-eye")
-                                li.header__nav-menu-li
-                                    a.header__nav-menu-link.nav-menu-fonts(href="#")|contact
-                                        //- i(class="fas fa-envelope")
-                        .header__nav-social
-                            ul.header__nav-social-ul
-                                li.header__nav-social-li
-                                    a.header__nav-social-link.header__nav-icon-fb(href="https://www.facebook.com/profile.php?id=100005873202224")
-                                        i(class="fab fa-facebook-square")
-                                li.header__nav-social-li
-                                    a.header__nav-social-link.header__nav-icon-github(href="https://github.com/Zheka-ded")
-                                        i(class="fab fa-github-square")
-                                li.header__nav-social-li
-                                    a.header__nav-social-link.header__nav-icon-linkedin(href="#")
-                                        i(class="fab fa-linkedin")
-                                li.header__nav-social-li
-                                    a.header__nav-social-link.header__nav-icon-instagram(href="#")
-                                        i(class="fab fa-instagram")
+            include ../header/nav.pug
             .header__intro
                 .header__intro-wrap
                     .header__intro-code-top

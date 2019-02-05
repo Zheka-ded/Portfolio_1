@@ -31,10 +31,16 @@
 }
 
 .header__intro-mine{
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Neucha', cursive;
     font-size: 4.5rem;
     font-weight: bold;
 }
+
+.header__name-mine-text{
+    font-family: 'Neucha', cursive;
+    font-size: 6rem;
+    text-align: center;
+  }
 
 @media (max-width: 751px) {
 
@@ -46,9 +52,9 @@
 
 // !!! BUTTON FONTS !!! //
 
-.header__btn-fonts{
-    border-radius:0.8rem;
-    font-family: 'Nanum Pen Script', cursive, sans-serif;
-    text-transform: uppercase;
-	font-size:2rem;
-}
+// .header__btn-fonts{
+//     border-radius:0.8rem;
+//     font-family: 'Nanum Pen Script', cursive, sans-serif;
+//     text-transform: uppercase;
+// 	font-size:2rem;
+// }
